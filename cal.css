@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: flex-start; /* Start items at the top */
+    align-items: center; /* Center items horizontally */
+    margin: 0; /* Remove default margin for proper alignment */
+    height: 100vh; /* Use full viewport height */
+    box-sizing: border-box;
+    background-color: darkolivegreen;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0; /* Remove default margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screen {
+    font-size: 30px;
+    margin: 0; /* Remove default margin */
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 400px;  
+    /* Optional for better visibility */
+}
+.container {
+    display: grid;
+    grid-template-rows: repeat(5, 20px); /* Simplified row definition */
+    grid-template-columns: repeat(4, 20px); /* Simplified column definition */
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 10px; /* Spacing below the heading */
+    background-color:maroon;
+    height: 500px;
+    width: 500px;  
+    /* Optional for better visibility */
+}
+button {
+    font-size: 30px;
+    margin: 0; /* Remove default margin */
+   justify-content: center;
+   align-items: center;
+    background-color: rgb(221, 185, 79);
+    color: white;
+    border-color: brown;
+    height: 50px;
+    width: 40px;  
+    margin-top:200px; 
+    
+    /* Optional for better visibility */
+}
